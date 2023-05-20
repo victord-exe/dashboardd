@@ -45,7 +45,7 @@ inasistencias = lista_asistencias[~lista_asistencias['correo_estudiante'].isin(
 # Calcular la cantidad de inasistencias
 cantidad_inasistencias = len(inasistencias)
 
-print(lista_asistencias)
+#print(lista_asistencias)
 
 # Obtener estudiantes inasistentes y calcular porcentaje de asistencias e inasistencias mensuales
 asistencias = []
